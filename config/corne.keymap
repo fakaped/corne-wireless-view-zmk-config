@@ -35,6 +35,31 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
+
+        Workspace01 {
+            bindings = <&kp RG(NUMBER_1)>;
+            key-positions = <40 13>;
+        };
+
+        Workspace02 {
+            bindings = <&kp RG(NUMBER_2)>;
+            key-positions = <40 14>;
+        };
+
+        Workspace03 {
+            bindings = <&kp RG(NUMBER_3)>;
+            key-positions = <40 15>;
+        };
+
+        Workspace04 {
+            bindings = <&kp RG(NUMBER_4)>;
+            key-positions = <40 16>;
+        };
+
+        Workspace05 {
+            bindings = <&kp RG(NUMBER_5)>;
+            key-positions = <40 17>;
+        };
     };
 
     macros {
