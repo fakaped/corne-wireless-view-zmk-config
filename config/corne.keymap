@@ -38,27 +38,27 @@
 
         Workspace01 {
             bindings = <&kp LG(NUMBER_1)>;
-            key-positions = <40 13>;
+            key-positions = <13 30 31>;
         };
 
         Workspace02 {
             bindings = <&kp LG(NUMBER_2)>;
-            key-positions = <40 14>;
+            key-positions = <14 30 31>;
         };
 
         Workspace03 {
             bindings = <&kp LG(NUMBER_3)>;
-            key-positions = <40 15>;
+            key-positions = <15 30 31>;
         };
 
         Workspace04 {
             bindings = <&kp LG(NUMBER_4)>;
-            key-positions = <40 16>;
+            key-positions = <16 30 31>;
         };
 
         Workspace05 {
             bindings = <&kp LG(NUMBER_5)>;
-            key-positions = <40 17>;
+            key-positions = <17 30 31>;
         };
     };
 
