@@ -21,9 +21,9 @@
 
             display-name = "Base";
             bindings = <
-&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &mt LCTRL BACKSLASH
-&kp BACKSPACE  &kp A  &kp R  &kp S     &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &mt LCTRL BACKSLASH
+&kp BACKSPACE  &kp A  &kp R  &kp S     &kp T  &kp G        &kp M      &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K      &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
                              &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
@@ -38,7 +38,7 @@
             display-name = "Lower";
             bindings = <
 &kp GRAVE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
+&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  &tog 3
 &kp LSHFT  &trans        &trans        &trans        &trans        &bt BT_CLR      &trans     &trans    &trans    &trans     &trans  &trans
                                        &kp LGUI      &trans        &kp ENTER       &kp SPACE  &trans    &kp RALT
             >;
@@ -60,11 +60,11 @@
             >;
         };
 
-        Mod-DH {
+        ColemakV {
             bindings = <
-&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &mt RCTRL BACKSLASH
-&kp BSPC       &kp A  &kp R  &kp S     &kp T  &kp G        &kp M      &kp N  &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT      &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K      &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &mt RCTRL BACKSLASH
+&kp BSPC       &kp A  &kp R  &kp S     &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                              &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
