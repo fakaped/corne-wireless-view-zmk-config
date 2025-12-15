@@ -62,10 +62,10 @@
 
         ColemakV {
             bindings = <
-&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &mt RCTRL BACKSLASH
-&kp BSPC       &kp A  &kp R  &kp S     &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                             &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
+&mt LCTRL TAB  &kp Q  &kp W  &kp F     &kp P   &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &mt RCTRL BACKSLASH
+&kp BSPC       &kp A  &kp R  &kp S     &kp T   &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp V   &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                             &kp LGUI  &trans  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
     };
